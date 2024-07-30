@@ -1,0 +1,66 @@
+.loginbox {
+    height: 400px;
+    width: 320px;
+    border: solid black 2px;
+    margin: auto;
+    border-radius: 16px;
+    padding: 12px;
+    background-color: white;
+}
+
+.home {
+    background-image: url('loginbackground.png');
+    background-size: 100% 743px;
+}
+
+.loginbody {
+    padding: 5%;
+    background-image: url('loginbackground.png');
+    background-size: 100% 743px;
+}
+
+.logintitle {
+    font-size: 32px;
+    text-align: center;
+    font-family: 'Inter', serif;
+}
+
+.loginbutton {
+    width: 320px;
+    height: 32px;
+    border-radius: 4px;
+    background-color: #0057B8;
+    color: white;
+}
+
+.loginbuttondiv {
+    text-align: center;
+}
+
+.userpass {
+    font-family: 'Inter', serif;
+}
+
+.signuplink {
+    color: #c0c0c0;
+    text-decoration: none;
+    text-align: center;
+}
+.title {
+    font-family: 'Jacques Francois', serif;
+    text-align: center;
+    font-size: 40px;
+    line-height: 64px;
+    background-image: linear-gradient(#01CCE8, #0ECDE7, #115EA5, #115EA5);
+    color: transparent;
+    background-clip: text
+}
+.donutbox {
+    height: 72px;
+    width: 256px;
+    border: solid black 0px;
+    margin: auto;
+    border-radius: 16px;
+    padding: 12px;
+    background-color: white;
+}
