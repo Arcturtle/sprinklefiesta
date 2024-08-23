@@ -13,7 +13,7 @@
     background-size: 100% 743px;
 }
 
-.loginbody {
+.bg {
     padding: 5%;
     background-image: url('loginbackground.png');
     background-size: 100% 743px;
@@ -63,4 +63,61 @@
     border-radius: 16px;
     padding: 12px;
     background-color: white;
+}
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.restbox {
+    height: 72px;
+    width: 256px;
+    border: solid black 0px;
+    margin: auto;
+    border-radius: 16px;
+    padding: 12px;
+    background-color: white;
+    line-height: 0.8;
+}
+
+.donutbox {
+    height: auto;
+    width: 160;
+    border: solid black 0px;
+    margin: auto;
+    border-radius: 16px;
+    padding: 12px;
+    background-color: white;
+    line-height: 0.8;
+}
+
+.orderbutton {
+    width: 128px;
+    height: 32px;
+    border-radius: 4px;
+    background-color: #0057B8;
+    color: white;
+}
+
+.logo {
+    height: 64px;
+    width: 64px;
+}
+
+.donut {
+    height: 72px;
+    width: 72px;
+}
+
+.amount {
+    height: 36px;
+    width: 108px;
+    background-color: pink;
+    border-radius: 24px;
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(3, 1fr);
 }
